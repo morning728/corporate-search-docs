@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1320" height="470" viewBox="0 0 1320 470">
+<title>Упрощённая схема индексирования и поиска</title>
+<rect width="100%" height="100%" fill="white"/>
+<path d="M310,85 L350,85" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="350,85 338,78 338,92" fill="#555"/>
+<path d="M630,85 L670,85" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="670,85 658,78 658,92" fill="#555"/>
+<path d="M810,140 L810,320" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="810,320 803,308 817,308" fill="#555"/>
+<path d="M310,375 L350,375" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="350,375 338,368 338,382" fill="#555"/>
+<path d="M630,375 L670,375" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="670,375 658,368 658,382" fill="#555"/>
+<path d="M950,375 L990,375" fill="none" stroke="#555" stroke-width="3"/>
+<polygon points="990,375 978,368 978,382" fill="#555"/>
+<rect x="30" y="30" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="170.0" y="85.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Документы</text>
+<rect x="350" y="30" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="490.0" y="64.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Обработка</text>
+<text x="490.0" y="106.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">документов</text>
+<rect x="670" y="30" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="810.0" y="64.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Обратный</text>
+<text x="810.0" y="106.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">индекс</text>
+<rect x="30" y="320" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="170.0" y="354.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Запрос</text>
+<text x="170.0" y="396.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">пользователя</text>
+<rect x="350" y="320" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="490.0" y="354.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Обработка</text>
+<text x="490.0" y="396.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">запроса</text>
+<rect x="670" y="320" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="810.0" y="354.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Поиск</text>
+<text x="810.0" y="396.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">по индексу</text>
+<rect x="990" y="320" width="280" height="110" fill="white" stroke="#555" stroke-width="2"/>
+<text x="1130.0" y="354.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">Ранжирование</text>
+<text x="1130.0" y="396.0" text-anchor="middle" dominant-baseline="central" font-family="Arial, DejaVu Sans, sans-serif" font-size="32">и результаты</text>
+</svg>

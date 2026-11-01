@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="in-text" default-locale="ru-RU">
+  <info>
+    <title>Числовые ссылки семестрового проекта</title>
+    <id>https://example.invalid/styles/semester-numeric-ru</id>
+    <updated>2026-11-01T00:00:00+00:00</updated>
+    <category citation-format="numeric"/>
+  </info>
+  <locale xml:lang="ru-RU">
+    <terms><term name="page" form="short">с.</term></terms>
+  </locale>
+  <citation collapse="citation-number">
+    <layout prefix="[" suffix="]" delimiter="; ">
+      <group delimiter=", ">
+        <text variable="citation-number"/>
+        <group delimiter=" "><label variable="locator" form="short"/><text variable="locator"/></group>
+      </group>
+    </layout>
+  </citation>
+  <bibliography second-field-align="flush" entry-spacing="1">
+    <sort><key variable="citation-number"/></sort>
+    <layout>
+      <text variable="citation-number" suffix=". "/>
+      <group delimiter=". " suffix=".">
+        <names variable="author"><name/></names>
+        <text variable="title"/>
+        <date variable="issued"><date-part name="year"/></date>
+        <text variable="publisher"/>
+        <text variable="publisher-place"/>
+      </group>
+      <text variable="URL" prefix=" URL: "/>
+      <date variable="accessed" prefix=" (дата обращения " suffix=")." delimiter=".">
+        <date-part name="day" form="numeric-leading-zeros"/>
+        <date-part name="month" form="numeric-leading-zeros"/>
+        <date-part name="year"/>
+      </date>
+    </layout>
+  </bibliography>
+</style>

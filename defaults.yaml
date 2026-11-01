@@ -1,0 +1,15 @@
+from: markdown+tex_math_dollars
+to: docx
+standalone: true
+table-of-contents: true
+number-sections: true
+resource-path:
+  - .
+  - images
+metadata:
+  lang: ru-RU
+  toc-title: Содержание
+  link-citations: true
+bibliography: bibliography.bib
+csl: numeric-ru.csl
+citeproc: true

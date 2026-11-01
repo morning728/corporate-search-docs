@@ -1,0 +1,7 @@
+build/
+qa/
+__pycache__/
+*.pyc
+~$*.docx
+.tools/
+output/
